@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.vanitystore.test.PrendaDAOTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.984 s <<< FAILURE! -- in com.vanitystore.test.PrendaDAOTest
+com.vanitystore.test.PrendaDAOTest.testAgregarPrendaCompleta -- Time elapsed: 0.928 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.setAutoCommit(boolean)" because "cn" is null
+	at com.vanitystore.model.PrendaDAO.agregarPrendaCompleta(PrendaDAO.java:70)
+	at com.vanitystore.test.PrendaDAOTest.testAgregarPrendaCompleta(PrendaDAOTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
